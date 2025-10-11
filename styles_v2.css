@@ -1,0 +1,58 @@
+.list-grafs{
+    list-style-type: none;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    align-self: center;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    font-family: 'Times New Roman', Times, serif;
+    color: aquamarine;
+}
+
+.main-container {
+  display: flex;
+  gap: 2rem;
+  max-width: 1300px;  
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 2rem;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #fdfdfd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.slider{
+  display: none;
+  gap: 1rem;
+}
+.main-grafico{
+  flex: 3;
+  max-width: 1200px;
+  min-height: 400px;
+}
+
+
+.grafico{
+  min-width: 800px;
+  min-height: 400px;
+}
+
+.explicacion{
+  flex: 1;
+}
+.controles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  align-items: center;
+  justify-content: center;
+}
