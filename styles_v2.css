@@ -16,7 +16,7 @@ a{
 .main-container {
   display: flex;
   gap: 2rem;
-  max-width: 1300px;  
+  max-width: 1200px;  
   align-items: center;
   justify-content: center;
   margin: auto;
@@ -35,14 +35,13 @@ a{
 }
 .main-grafico{
   flex: 3;
-  max-width: 1200px;
-  min-height: 400px;
+  max-width: 950px;
+  min-height: 600px;
 }
-
 
 .grafico{
   min-width: 800px;
-  min-height: 400px;
+  min-height: 600px;
 }
 
 .explicacion{
